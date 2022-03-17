@@ -1,0 +1,91 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+p {
+  text-align: justify;
+}
+
+header {
+  background-color:rgb(57, 139, 160); /*BEST so far*/
+  padding: 20px;
+  display: flex;
+}
+
+ul {
+  text-align: left;
+}
+
+h1 {
+  color: lightgray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+}
+
+h3 {
+  color: rgb(238, 154, 115);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 23px;
+} 
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+a:hover {
+  color: rgb(31, 30, 30);
+}
+
+#definition {
+  padding: 5px;
+  background-color: rgb(210, 248, 217);
+  color: rgb(64, 64, 65);
+}
+
+#links {
+  background-color: rgb(95, 93, 93);
+  color: antiquewhite;
+  text-align: center;
+}
+
+#left {
+  flex: 50%;
+  text-align: right;
+  margin: auto;
+}
+
+#right {
+  flex: 50%;
+  text-align: center;
+}
+
+/*styling for mobile device*/
+@media screen and (max-width: 460px) {
+  
+  body {
+    font-size: 14px; 
+  }
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  } 
+  a {
+    font-size: 14px;
+  }
+}
+
